@@ -2,7 +2,7 @@
  
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
- 
+require './vendor/autoload.php'
 if (isset($_POST['submit'])) {
    $mail = new PHPMailer();
    $mail->IsSMTP();
