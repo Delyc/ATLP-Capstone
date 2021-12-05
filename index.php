@@ -21,14 +21,14 @@ if (isset($_POST['submit'])) {
    $mail->AddAddress('delyce2002@gmail.com', "Admin");
    $mail->SetFrom($_POST["email"], $_POST["first-name"] . $_POST["last-name"]);
    $mail->AddReplyTo($_POST["email"], $_POST["first-name"] . $_POST["last-name"]);
-   $mail->Subject = "Message your Portfolio";
+   $mail->Subject = "Message from Portfolio";
    $content = "Name : " . $_POST["first-name"] . $_POST["last-name"] . "\n"  . "Message : " .  $_POST["message"];
    $mail->MsgHTML($content);
    if (!$mail->Send()) {
        echo "<span class='error'>" . 'something is wrong, try again';
        var_dump($mail);
    } else {
-       echo "<span class='success'>" . 'We have received your message, ' . $_POST["first-name"] . "</span>";
+       echo "<span class='success'>" . 'I have received your message, ' . $_POST["first-name"] . "</span>";
    }
 }
 ?>
