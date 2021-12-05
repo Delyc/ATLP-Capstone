@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="index.css" />
   </head>
 
-  <main>
+  <body>
     <div class="header">
       <p class="name">Delyce Twizeyimana</p>
       <div class="Navbutton">
@@ -173,4 +173,4 @@ if (isset($_POST['submit'])) {
         ><img src="images/github.jpg" alt="" width="55px" height="45px"
       /></a>
     </div>
-  </main>
+  </body>
