@@ -94,20 +94,7 @@ body {
   color: #fff;
   transform: scale(1.1);
 }
-.intro {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0;
-  height: 250px;
-  width: 200px;
-  margin-bottom: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #021222;
-  margin-right: 1rem;
-  border-radius: 10px;
-}
+
 .intro > p {
   padding-top: 0;
   margin-top: 0;
@@ -204,15 +191,26 @@ form {
 }
 
 .group1 {
-  margin-right: 1rem;
+  margin-right: 10rem;
 }
 
 textarea,
 input {
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  background-color: #021222;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  padding-left: 5px;
 }
 input {
   height: 30px;
+}
+
+input:active {
+  outline: thin solid #fff;
 }
 
 .btn {
@@ -223,6 +221,8 @@ input {
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.5s ease;
+  color: #021222;
+  background-color: #fff;
 }
 
 .btn:hover {
@@ -253,7 +253,22 @@ input {
   margin-left: 450px;
   width: 100%;
 }
-.Navbutton {
+.Navbutton > a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-left: 0px;
+  color: #000;
+  margin-top: 0px;
+  background-color: #ffc107;
+}
+
+.Navbutton > a:hover {
+  background-color: rgb(198, 218, 19);
+  color: #fff;
+  transform: scale(1.1);
 }
 
 .introduction {
@@ -350,4 +365,52 @@ input {
 }
 
 .rightfirst {
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0;
+  height: 250px;
+  width: 95%;
+  margin-bottom: 200px;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  background-color: #021222;
+  margin-right: 1rem;
+  padding: 0 2rem;
+  border-radius: 10px;
+  opacity: 0.5px;
+}
+.abt,
+.conta {
+  color: #ffc107;
+  margin-left: 30px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 0.5rem;
+  font-size: small;
+}
+
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.ico {
+  margin-right: 1rem;
+}
+.messageme {
+  width: 100%;
+  text-align: center;
+  color: #ffc107;
+}
+
+.about {
+  width: 30vw;
 }
