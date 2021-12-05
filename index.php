@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
    $mail->SetFrom($_POST["email"], $_POST["first-name"] . $_POST["last-name"]);
    $mail->AddReplyTo($_POST["email"], $_POST["first-name"] . $_POST["last-name"]);
    $mail->Subject = "Message from Portfolio";
-   $content = "Name : " . $_POST["first-name"] . $_POST["last-name"] . "\n"  . "Message : " .  $_POST["message"];
+   $content = "Name : " . $_POST["first-name"] . " " . $_POST["last-name"] . "\n"  . "Message : " .  $_POST["message"];
    $mail->MsgHTML($content);
    if (!$mail->Send()) {
        echo "<span class='error'>" . 'something is wrong, try again';
