@@ -1,0 +1,353 @@
+body {
+  background-color: rgb(29, 34, 38);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name {
+  margin-left: 100px;
+  font-weight: bolder;
+}
+.header {
+  background-color: rgb(225, 225, 225);
+  opacity: 10px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.space {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+.space > img {
+  width: 30%;
+  height: 90%;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+.discover {
+  color: #ffc107;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+}
+
+/* .discover {
+  
+  color: #ffc107;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.my {
+  margin-left: 200px;
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.art {
+  margin-left: 1000px;
+  color: #ffc107;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+} */
+.cont {
+  margin-right: 10px;
+}
+.proj {
+  margin-right: 10px;
+}
+.serv {
+  margin-right: 20px;
+}
+.cont,
+.proj,
+.serv {
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 1rem;
+  width: max-content;
+
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-left: 0px;
+  margin-top: 0px;
+  background-color: #ffc107;
+}
+.cont:hover,
+.proj:hover,
+.serv:hover {
+  background-color: rgb(198, 218, 19);
+  color: #fff;
+  transform: scale(1.1);
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  height: 250px;
+  width: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #021222;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+.intro > p {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding: 0.25rem 1rem;
+}
+.design {
+  font-size: 10px;
+  color: rgb(241, 234, 234);
+  font-weight: 600;
+}
+.intro > img {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 100px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+hr {
+  width: 90%;
+  border: 1px solid #ffc107;
+}
+.desc {
+  width: 50%;
+  margin-top: 100px;
+}
+.skills {
+  width: 70%;
+  margin: auto;
+}
+.mySkills {
+  width: 50%;
+  margin: auto;
+}
+
+.all {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.project {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212529;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
+.desci {
+  text-align: center;
+}
+
+.skillused > p {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding: 0.25rem 1rem;
+  background-color: #343a40;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+.pro {
+  width: 100%;
+  text-align: center;
+  color: #ffc107;
+}
+
+.title {
+  color: #fed136;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+  background-color: #212529;
+  display: flex;
+  padding: 1rem;
+}
+
+.group1,
+.group2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.group1 {
+  margin-right: 1rem;
+}
+
+textarea,
+input {
+  margin-bottom: 1rem;
+}
+input {
+  height: 30px;
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 2rem;
+  width: max-content;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #3d4144;
+  color: #fff;
+  transform: scale(1.1);
+}
+.body {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #212529;
+  margin-right: 1rem;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.exp {
+  color: darkgoldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 400px;
+  width: 100%;
+}
+.python {
+  margin-left: 450px;
+  width: 100%;
+}
+.Navbutton {
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+
+.left {
+  width: 30vw;
+  margin-right: 2rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.pic {
+  background-image: url("images/intro.jpeg");
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.myname {
+  font-size: 18px;
+  text-align: center;
+}
+.ui {
+  font-size: 12px;
+  text-align: center;
+}
+.exper > p {
+  color: #ffc107;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.allskills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+.allskills > p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  background-color: #3d4144;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.right > img {
+  height: 100%;
+  width: 30%;
+}
+.discoverr {
+  font-size: 90px;
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #ffc107;
+}
+.myart {
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 10px;
+  margin-top: 0;
+}
+.spaces {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.desc {
+  width: 80%;
+  margin: auto;
+  line-height: 150%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.bigpic {
+  height: 100%;
+  width: 40vw;
+  background-image: url("images/de.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.rightfirst {
+}
