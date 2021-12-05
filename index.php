@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
    $mail = new PHPMailer();
    $mail->IsSMTP();
    $mail->Mailer = "smtp";
-   $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+   $mail->SMTPDebug = SMTP::DEBUG_OFF;
    $mail->SMTPAuth   = TRUE;
    $mail->SMTPSecure = "starttls";
    $mail->Port       = 587;
