@@ -26,9 +26,7 @@ if (isset($_POST['submit'])) {
   $mail->MsgHTML($content);
   if (!$mail->Send()) {
     echo "<span class='error'>" . 'something is wrong, try again';
-    var_dump($mail);
   } else {
-    echo "<span class='success'>" . 'I have received your message, ' . $_POST["first-name"] . "</span>";
   }
 }
 ?>
