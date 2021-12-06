@@ -45,11 +45,12 @@ if (isset($_POST['submit'])) {
   <div class="header">
     <p class="name">Delyce Twizeyimana</p>
     <div class="Navbutton">
-      
+      <button class="cont" type="button">Contact Me</button>
+      <button class="proj" type="button">Projects</button>
       <a href="#pro">Project</a>
       <a href="#conta">Contact Me</a>
-      <a href="#conta">Services</a>
-
+      <a href="#conta">Serv</a>
+      <button class="serv" type="button">Services</button>
     </div>
   </div>
   <div class="introduction">
