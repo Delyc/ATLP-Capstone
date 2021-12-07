@@ -152,7 +152,7 @@ if (isset($_POST['submit'])) {
   <div class="location">
     <div class="about">
       <h3 class="abt">About me</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+      <p>I’m a designer specializing in branding, graphic designing, and web design</p>
       <h3 id="conta" class="conta">Contact me</h3>
       <div class="icons">
         <div class="phone"><img src="images/phone.jpg" alt="" width="30px" class="ico" height="30px"><span>+250 7810 938 95</span></div>
