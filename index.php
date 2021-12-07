@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
   $mail = new PHPMailer();
   $mail->IsSMTP();
   $mail->Mailer = "smtp";
-  $mail->SMTPDebug = SMTP::DEBUG_OFF;
+  $mail->SMTPDebug = SMTP::DEBUG_SERVER;
   $mail->SMTPAuth   = TRUE;
   $mail->SMTPSecure = "starttls";
   $mail->Port       = 587;
@@ -91,8 +91,8 @@ if (isset($_POST['submit'])) {
       <h3 class="title">Mobile banking</h3>
       <img class="image" src="images/bank.png" alt="" />
       <p class="desci">
-        A banking system application A banking system application A banking
-        system application
+        A banking system application A banking system application 
+        A banking system application
       </p>
       <h4>developed using</h4>
       <div class="skillused">
@@ -101,16 +101,16 @@ if (isset($_POST['submit'])) {
       </div>
     </div>
     <div class="project">
-      <h3 class="title">Mobile banking</h3>
-      <img class="image" src="images/bank.png" alt="" />
+      <h3 class="title">IP address tracker UI</h3>
+      <img class="image" src="images/IP address.png" alt="" />
       <p class="desci">
-        A banking system application A banking system application A banking
-        system application
+        took a challenge of redesigning this 
+        IP address tarcker UIn from fornt end mentor
       </p>
       <h4>developed using</h4>
       <div class="skillused">
-        <p>Python</p>
-        <p>Python</p>
+        <p>HTML</p>
+        <p>CSS</p>
       </div>
     </div>
     <div class="project">
@@ -195,8 +195,9 @@ if (isset($_POST['submit'])) {
       <h3 class="title">Graphic designing</h3>
       <img class="image" src="images/bank.png" alt="" />
       <p class="desci">
-      createing posters, packaging, logo , 
-      arts and marketing materials
+      createing posters, packaging, logo,
+      business cards, arts and marketing
+      materials
       </p>
       <h4>developed using</h4>
       <div class="skillused">
