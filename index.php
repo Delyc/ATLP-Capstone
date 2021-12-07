@@ -43,12 +43,9 @@ if (isset($_POST['submit'])) {
   <div class="header">
     <p class="name">Delyce Twizeyimana</p>
     <div class="Navbutton">
-      <button class="cont" type="button">Contact Me</button>
-      <button class="proj" type="button">Projects</button>
       <a href="#pro">Project</a>
       <a href="#conta">Contact Me</a>
       <a href="#conta">Serv</a>
-      <button class="serv" type="button">Services</button>
     </div>
   </div>
   <div class="introduction">
@@ -175,6 +172,38 @@ if (isset($_POST['submit'])) {
       <p>Age <span>59</span></p>
     </div>
 
+  </div>
+
+  <h2 id="pro" class="pro">Services</h2>
+  <div class="all">
+    <div class="project">
+      <h3 class="title">UI/UX design</h3>
+      <img class="image" src="images/bank.png" alt="" />
+      <p class="desci">
+       creating user friendly intefaces 
+       that gives users good undertsanding
+       on how to use complex technical 
+       products.
+      </p>
+      <h4>developed using</h4>
+      <div class="skillused">
+        <p>Python</p>
+        <p>Python</p>
+      </div>
+    </div>
+    <div class="project">
+      <h3 class="title">Graphic designing</h3>
+      <img class="image" src="images/bank.png" alt="" />
+      <p class="desci">
+      createing posters, packaging, logo , 
+      arts and marketing materials
+      </p>
+      <h4>developed using</h4>
+      <div class="skillused">
+        <p>Python</p>
+        <p>Python</p>
+      </div>
+    </div>
   </div>
   <div class="git">
     <a href="https://github.com/" target="_blank"><img src="images/github.jpg" alt="" width="55px" height="45px" /></a>
