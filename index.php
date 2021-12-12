@@ -114,11 +114,11 @@ if (isset($_POST['submit'])) {
       </div>
     </div>
     <div class="project">
-      <h3 class="title">Mobile banking</h3>
-      <img class="image" src="images/bank.png" alt="" />
+      <h3 class="title">Online Ordering</h3>
+      <img class="image" src="images/Online ordering.jpg" alt="" />
       <p class="desci">
-        A banking system application A banking system application A banking
-        system application
+        An online ordering application for ordering food
+        on campus and be delivered wherever you are
       </p>
       <h4>developed using</h4>
       <div class="skillused">
@@ -178,7 +178,6 @@ if (isset($_POST['submit'])) {
   <div class="all">
     <div class="project">
       <h3 class="title">UI/UX design</h3>
-      <img class="image" src="images/bank.png" alt="" />
       <p class="desci">
        creating user friendly intefaces 
        that gives users good undertsanding
@@ -187,13 +186,12 @@ if (isset($_POST['submit'])) {
       </p>
       <h4>developed using</h4>
       <div class="skillused">
-        <p>Python</p>
-        <p>Python</p>
+        <p>HTML</p>
+        <p>CSS</p>
       </div>
     </div>
     <div class="project">
       <h3 class="title">Graphic designing</h3>
-      <img class="image" src="images/bank.png" alt="" />
       <p class="desci">
       createing posters, packaging, logo,
       business cards, arts and marketing
@@ -201,8 +199,9 @@ if (isset($_POST['submit'])) {
       </p>
       <h4>developed using</h4>
       <div class="skillused">
-        <p>Python</p>
-        <p>Python</p>
+        <p>Adobe photoshop</p>
+        <p>Adobe Indesign</p>
+        <p>Adobe Illustrator</p>
       </div>
     </div>
   </div>

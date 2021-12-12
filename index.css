@@ -152,7 +152,8 @@ hr {
   width: 200px;
 }
 .desci {
-  text-align: center;
+  width: 50%;
+  margin-top: 100px;
 }
 
 .skillused > p {
@@ -289,6 +290,7 @@ input:active {
 }
 
 .pic {
+  margin-top: 100px;
   background-image: url("images/intro.jpeg");
   height: 200px;
   width: 200px;
